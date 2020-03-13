@@ -1,0 +1,2 @@
+﻿Create Table UserInfo( UserId Int Identity(1,1) Not null Primary Key, FirstName Varchar(30) Not null, LastName Varchar(30) Not null, UserName Varchar(30) Not null, Email Varchar(50) Not null, Password Varchar(20) Not null, CreatedDate DateTime Default(GetDate()) Not Null) 
+Insert Into UserInfo(FirstName, LastName, UserName, Email, Password) Values ('Inventory', 'Admin', 'InventoryAdmin', 'InventoryAdmin@abc.com', '$admin@2017') 
